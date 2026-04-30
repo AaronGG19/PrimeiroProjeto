@@ -46,10 +46,11 @@ nota4 = Number(window.prompt('Qual foi sua nota no quarto bimestre?'));
 var resultado = (nota1 + nota2 + nota3 + nota4) / 4
 var passou = resultado >= 6 ? "passou" : "não passou"
 window.alert(`Sua media é ${resultado}, você ${passou}`)
-document.write(`Você ${passou}`)
+document.write(`Você ${passou}<br/>`)
 document.write(`Olá, <strong> ${nome} <strong> seu nome tem ${nome.length} letra <br/>`)
 document.write(` Seu nome em maisculas é ${nome.toUpperCase()}<br/>`)
 document.writeln(`Seu nome em minusclas é ${nome.toLowerCase()}<br/>`)
+document.write(`Sua nota do primeiro bimestre foi: ${nota1}, sua nota no segundo bimestre foi: ${nota2}, sua nota do terceiro bimestre foi: ${nota3}, sua nota do quarto bimestre foi: ${nota4}. totalizando assim uma media de ${resultado}`)
         
     </script>
 </body>
